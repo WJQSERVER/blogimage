@@ -1,2 +1,0 @@
-docker run -it -d --ip 172.20.0.10 --network=bridge_v4v6 --name halo -p 8090:8090 -v ~/.halo2:/root/.halo2 halohub/halo:2.10 --halo.external-url=https://wjqserver.xyz --halo.security.initializer.superadminusername=wjqserver --halo.security.initializer.superadminpassword=@Aa15259218386
-docker run -it -d --ip 172.20.0.10 --network=bridge_v4v6 --name halo -p 8090:8090 -v ~/.halo2:/root/.halo2 halohub/halo:2.10 --halo.security.initializer.superadminusername=wjqserver --halo.security.initializer.superadminpassword=@Aa15259218386
